@@ -1,1 +1,5 @@
-'from fastapi import FastAPI\n\napp = FastAPI()\n\n@app.get("/")\ndef root():\n    return {"message": "Hello World"}' 
+from fastapi import FastAPI
+app = FastAPI()
+@app.get("/")
+def root():
+  return {"message": "Hello World"}' 
